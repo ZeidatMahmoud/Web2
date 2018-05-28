@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/y.css">
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="css/apply.css">
+  <link rel="stylesheet" type="text/css" href="css/tea.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+  <div class="navigation-bar">
+
+
+    <div id="navigation-container">
+
+      <img src="images/logo.png" height="80" width="80">
+
+      <ul id ="des">
+        
+          <li><a href="teacher.html">Home</a></li>
+          <!-- <li><a href="#">Apply</a></li> -->
+          
+       
+      </ul>
+
+      
+
+    </div>
+   
+
+  <div>
+   
+  </div>
+  <div>
+<!-- <div id="search">
+    <fiqure>
+        <input type="text" id="tsearch" name="Search" placeholder="Search Using ID.." class="element">
+        <button id="logout">Log Out</button>
+    </fiqure>
+</div> -->
+<div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('wrapper')" id="tab">Personal Info</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Paris')" id="tab">Courses</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')" id="tab">Students</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('mah')" id="tab">schedule</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('grade')" id="tab">Grades </button>
+
+
+    </div>
+
+    <div id="wrapper" class="w3-container city">
+            <div id="three-column" class="container">
+                <div class="title">
+                    <form >
+                         <h3>Personal Information<span>*</span></h3>
+                             
+                        <figure >
+                                <input type="text" id="sfname" name="studentfirst" placeholder="First Name" class="element">
+                                <input type="text" id="slname" name="studentlast" placeholder="Last Name" class="element">
+                                 <input type="text" id="saname" name="studentfather" placeholder="Father Name" class="element">
+                        </figure>
+                        <figure>
+                                 <input type="text" id="sphone" name="studentphone" placeholder="Phone" class="element">
+                                <input type="text" id="smobile" name="studentmobile" placeholder="Mobile" class="element">
+                                 <input type="text" id="saddress" name="studntaddress" placeholder="Address" class="element">
+                        </figure>
+                        <figure>
+                                <input type="Email" id="semail1" name="studentemail" placeholder="Email address" class="element">
+                                <input type="Email" id="semail2" name="studentconfirm" placeholder="Confirm Email" class="element">
+                        </figure>
+        
+                        
+                        <h3>Spicalize Information<span>*</span></h3>
+                             
+                        <figure >
+                              
+                              <select class="element" style="background: white;">
+                                              <option value="Department" disabled selected>Department </option>
+                                              <option value="Math">Math</option>
+                                              <option value="Computer">Computer</option>
+                                              <option value="">Arts</option>
+                                              <option value="Law">Arts</option>
+                                              <option value="Business and Economics">Business and Economics</option>
+
+                                              
+                                </select>
+                                 <select class="element" style="background: white;">
+                                              <option value="" disabled selected>Degree</option>
+                                              <option value="1">Bachalor</option>
+                                              <option value="1">Master</option>
+                                              <option value="2">Doctor</option>
+                                             
+                                              
+                                </select>
+                                </figure>
+                                <figure>
+        
+                                
+                                </figure>
+                                 
+                        
+                              
+        
+                            <input type="submit" value="Save">
+                            <input type="submit" value="Remove">
+                            
+                </form>	
+             </div>
+                
+         </div>
+     </div>
+     <div id="Paris" class="w3-container city" style="display:none">
+            <table>
+                    <tr>
+                      <th>Course Name</th>
+                      <th>Course ID</th>
+                      <!-- <th>Course </th> -->
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <!-- <td>Germany</td> -->
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <!-- <td>Mexico</td> -->
+                    </tr>
+                    <tr>
+                      <td>Ernst Handel</td>
+                      <td>Roland Mendel</td>
+                      <!-- <td>Austria</td> -->
+                    </tr>
+                    <tr>
+                      <td>Island Trading</td>
+                      <td>Helen Bennett</td>
+                      <!-- <td>UK</td> -->
+                    </tr>
+                    <tr>
+                      <td>Laughing Bacchus Winecellars</td>
+                      <td>Yoshi Tannamuri</td>
+                      <!-- <td>Canada</td> -->
+                    </tr>
+                    <tr>
+                      <td>Magazzini Alimentari Riuniti</td>
+                      <td>Giovanni Rovelli</td>
+                      <!-- <td>Italy</td> -->
+                    </tr>
+                  </table>
+                  
+     </div>
+     <div id="Tokyo" class="w3-container city" style="display:none">
+            <table>
+                    <tr>
+                      <th>Course Name</th>
+                      <th>Course ID</th>
+                      <th>Time</th>
+                      <th>Room</th>
+                      <th>Section No.</th>
+
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Ernst Handel</td>
+                      <td>Roland Mendel</td>
+                      <td>Austria</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Island Trading</td>
+                      <td>Helen Bennett</td>
+                      <td>UK</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Laughing Bacchus Winecellars</td>
+                      <td>Yoshi Tannamuri</td>
+                      <td>Canada</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Magazzini Alimentari Riuniti</td>
+                      <td>Giovanni Rovelli</td>
+                      <td>Italy</td>
+                      <td>Germany</td>
+                      <td>Germany</td>
+                    </tr>
+                  </table>
+                  
+     </div>
+
+     <!-- <div id="wrapper" class="w3-container city" id="mah" style="display: none;">
+            <div id="three-column" class="container">
+                <div class="title"> -->
+                    <div id="mah" class="w3-container city" style="display: none">
+                            <table>
+                                    <tr>
+                                      <th>Course Name</th>
+                                      <th>Course ID</th>
+                                      <th>Time</th>
+                                      <th>Room</th>
+                                      <th>Section No.</th>
+                
+                                    </tr>
+                                    <tr>
+                                      <td>Alfreds Futterkiste</td>
+                                      <td>Maria Anders</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Centro comercial Moctezuma</td>
+                                      <td>Francisco Chang</td>
+                                      <td>Mexico</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Ernst Handel</td>
+                                      <td>Roland Mendel</td>
+                                      <td>Austria</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Island Trading</td>
+                                      <td>Helen Bennett</td>
+                                      <td>UK</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Laughing Bacchus Winecellars</td>
+                                      <td>Yoshi Tannamuri</td>
+                                      <td>Canada</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Magazzini Alimentari Riuniti</td>
+                                      <td>Giovanni Rovelli</td>
+                                      <td>Italy</td>
+                                      <td>Germany</td>
+                                      <td>Germany</td>
+                                    </tr>
+                                  </table>  
+             </div>
+
+             <div id="grade" class="w3-container city" style="display: none">
+                    <form >
+                            <!-- <h3>Personal Information<span>*</span></h3> -->
+                                
+                           <figure >
+                                   <input type="text" id="sfname" name="studentfirst" placeholder="Student ID" class="element" required>
+                                   <input type="text" id="slname" name="studentlast" placeholder="Course ID" class="element" required>
+                                   </figure>
+                                   <fiqure>
+                                   <select class="element" style="background: white;" required>
+                                        <option value="" disabled selected>Grade</option>
+                                        <option value="1">Quiz</option>
+                                        <option value="1">Assignment</option>
+                                        <option value="2">Midterm</option>
+                                        <option value="2">Project</option>
+                                    
+                              <input type="text" id="slname" name="studentlast" placeholder="Mark" class="element" required>
+
+                           </figure>
+                           <fiqure>
+                                <input type="submit" value="ADD">
+                           </fiqure>
+                           
+                           </form>
+                   
+     </div>
+<!--                 
+         </div>
+     </div> -->
+      
+     <script>
+            function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                document.getElementById(cityName).style.display = "block";  
+            }
+            </script>
+    
+
+</body>
+
+</html>

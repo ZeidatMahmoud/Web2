@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="y.css">
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="stylesheet" type="text/css" href="apply.css">
+  <link rel="stylesheet" type="text/css" href="maneger-teacher.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+
+  <div class="navigation-bar">
+
+
+    <div id="navigation-container">
+
+      <img src="Logo.png" height="80" width="80">
+
+      <ul id ="des">
+        
+            <li><a href="maneger.html">Home</a></li>
+            <!-- <li><a href="#">Apply</a></li> -->
+            <li><a href="manger-teachers.html">Teachers</a></li>
+            <li><a href="manegercourses.html">Courses</a></li>
+            <li><a href="#">Study Requests</a></li>
+            <li><a href="newsandevents.html">News & Events</a></li>
+        <!-- <li><a href="#" id="logout">Log out</a></li> -->
+       
+      </ul>
+
+     
+
+    </div>
+   
+
+  <div>
+   
+  </div>
+  <div>
+<div id="search">
+    <fiqure>
+        <!-- <input type="text" id="tsearch" name="Search" placeholder="Search Using ID.." class="element"> -->
+        <!-- <button id="logout">Log Out</button> -->
+    </fiqure>
+</div>
+<div class="w3-bar w3-black">
+        <button class="w3-bar-item w3-button" onclick="openCity('wrapper')" id="tab">Courses</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Paris')" id="tab">Sections</button>
+        <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')" id="tab">Student & Course</button> 
+        <button class="w3-bar-item w3-button" onclick="openCity('mah')" id="tab">Display</button>
+
+    </div>
+
+    <div id="wrapper" class="w3-container city" style="display: block">
+            <div id="three-column" class="container">
+                <div class="title">
+                    <form >
+                         <!-- <h3>Personal Information<span>*</span></h3> -->
+                         <figure>
+                                <select class="element" style="background: white;">
+                                        <option value="Department" disabled selected>Department </option>
+                                        <option value="Math">Math</option>
+                                        <option value="Computer">Computer</option>
+                                        <option value="">Arts</option>
+                                        <option value="Law">Arts</option>
+                                        <option value="Business and Economics">Business and Economics</option>
+
+                                        
+                         </figure>
+
+                             
+                        <figure >
+                                <input type="text" id="sfname" name="studentfirst" placeholder="Course Name" class="element">
+                                <input type="text" id="slname" name="studentlast" placeholder="Course ID" class="element">
+                                 <!-- <input type="text" id="saname" name="studentfather" placeholder="Father Name" class="element"> -->
+                        </figure>
+                        
+                        <fiqure>
+                        <!-- < id="subject" name="subject" placeholder="Description.." style="height:200px" class="element" required></textarea> -->
+
+                        </fiqure>
+                       
+                       
+                    
+        
+                         <input type="submit" value="Save">
+                </form>	
+             </div>
+                
+         </div>
+     </div>
+     <div id="Paris" class="w3-container city" style="display:none">
+         
+         <form>
+             <fiqure>
+                    
+            <figure >
+                    <input type="text" id="sfname" name="studentfirst" placeholder="Course ID" class="element" required>
+                    <input type="text" id="slname" name="studentlast" placeholder="Section No" class="element" required>
+                     
+
+            </figure>
+            
+            <fiqure>
+                    <!-- <textarea id="subject" name="subject" placeholder="Description.." style="height:200px" class="element" required></textarea> -->
+                    <input type="text" id="saname" name="studentfather" placeholder="Time" class="element" required>
+                    <input type="text" id="saname" name="studentfather" placeholder="Days" class="element" required>
+
+            </fiqure>
+           
+           
+        
+
+             <input type="submit" value="ADD">
+    </form>
+                  
+     </div>
+
+     <div id="Tokyo" class="w3-container city" style="display:none">
+            <form>
+                    <figure >
+                            <input type="text" id="sfname" name="studentfirst" placeholder="Course ID" class="element" required>
+                            <input type="text" id="slname" name="studentlast" placeholder="Student ID" class="element" required>
+                             
+        
+                    </figure>
+                    <input type="submit" value="ADD">
+                    <input type="submit" value="Remove">
+
+                    
+    
+            </form>
+            
+         </div>
+
+
+     <div id="mah" class="w3-container city" style="display:none">
+        <form>
+                <figure>
+                        <select class="element" style="background: white;">
+                                <option value="Department" disabled selected>Department </option>
+                                <option value="Math">Math</option>
+                                <option value="Computer">Computer</option>
+                                <option value="">Arts</option>
+                                <option value="Law">Arts</option>
+                                <option value="Business and Economics">Business and Economics</option>
+
+                                
+                 </figure>
+
+        </form>
+        
+     </div>
+
+    
+            
+<!--                 
+         </div>
+     </div> -->
+      
+     <script>
+            function openCity(cityName) {
+                var i;
+                var x = document.getElementsByClassName("city");
+                for (i = 0; i < x.length; i++) {
+                   x[i].style.display = "none";  
+                }
+                document.getElementById(cityName).style.display = "block";  
+            }
+            </script>
+    
+
+</body>
+
+</html>

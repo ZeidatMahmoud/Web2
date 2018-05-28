@@ -1,0 +1,36 @@
+#search{
+    text-align: right;
+}
+#tab{
+    text-align: center ;
+   margin-left: 150px ;
+}
+#mah  {
+    margin: 20px ;
+}
+#logout{
+    background-color:white; 
+    color: black;
+    border: none ;
+    /* padding: 12px 20px; */
+    /* border-radius: 5px; */
+    /* padding-left: 300px ;      */
+    /* border:none ;  */
+    
+    /* align-content:flex-end ; */
+    /* cursor: pointer; */
+    width: 100px;
+    /* position: relative; */
+    
+
+
+}
+#block{
+    display: block;
+}
+#Paris{
+    margin: 20px ;
+}
+#Tokyo{
+    margin: 20px ;
+}
